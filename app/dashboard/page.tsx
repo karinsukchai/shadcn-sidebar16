@@ -13,11 +13,14 @@ export default function Page() {
   return (
     <div className="[--header-height:calc(--spacing(14))]">
       <SidebarProvider className="flex flex-col">
-        <SiteHeader />
+       
         <div className="flex flex-1">
+       
           <AppSidebar />
+         
           <SidebarInset>
             <div className="flex flex-1 flex-col gap-4 p-4">
+            <SiteHeader />
               <div className="grid auto-rows-min gap-4 md:grid-cols-3">
                 <div className="bg-muted/50 aspect-video rounded-xl" />
                 <div className="bg-muted/50 aspect-video rounded-xl" />
